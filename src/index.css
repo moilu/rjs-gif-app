@@ -16,3 +16,27 @@ input {
   font-size: 1.2rem;
   width: 100%;
 }
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  align-content: center;
+  border: 0.1rem solid gray;
+  border-radius: 0.6rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  overflow: hidden;
+}
+
+.card p {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.card img {
+  max-height: 17rem;
+}
